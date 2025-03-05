@@ -1,0 +1,122 @@
+.timerContainerDark {
+    background-color: rgba(255,255,255,0.08); /* полупрозрачный блок */
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.timerContainerLight {
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Кнопки режимов (Pomodoro / Short / Long) */
+.modeTabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.tabButton {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 999px; /* Очень скруглённые углы */
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.tabButton:hover {
+    background-color: #666;
+    transform: translateY(-2px);
+}
+
+.activeTab {
+    background-color: #e86b55; /* «помидорный» цвет */
+}
+
+.gifContainer {
+    margin-bottom: 30px;
+}
+
+/* Гифка ещё крупнее */
+.timerGif {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Время крупнее */
+.timeDisplay {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Кнопки Старт/Сброс */
+.buttons {
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    margin: 0 12px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+    background-color: #666;
+}
+
+/* Привязанная задача */
+.activeTask {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+    padding: 10px;
+}
+.timeControl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.arrowButton {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.arrowButton:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+

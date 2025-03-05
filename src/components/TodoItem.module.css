@@ -1,0 +1,116 @@
+.todoItem {
+    background-color: #888;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Когда задача выполнена (completed), блюрим и делаем полупрозрачной */
+.completedTask {
+    filter: blur(2px);
+    opacity: 0.6;
+}
+
+.taskContent h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.taskContent p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+/* Галочка: обычное состояние */
+.checkButton {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #555;
+    color: #fff;
+}
+
+/* Галочка: зелёная, если задача выполнена */
+.checkButtonDone {
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Кнопка «Закрепить» */
+.pinButton {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.pinButtonActive {
+    background-color: #ffd700; /* золотой цвет, выделяет закреп */
+    color: #000;
+}
+
+/* Кнопка «Удалить» */
+.deleteButton {
+    background-color: #ff5050;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Кнопка «Редактировать» */
+.editButton {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Форма редактирования */
+.editForm {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.editInput,
+.editTextarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+}
+
+.saveButton {
+    background-color: #00cc66;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}

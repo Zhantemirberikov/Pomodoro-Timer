@@ -1,0 +1,34 @@
+.taskForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.taskForm input,
+.taskForm textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.taskForm button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 999px;
+    background-color: #444;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.taskForm button:hover {
+    background-color: #666;
+    transform: translateY(-2px);
+}
