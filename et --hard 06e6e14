@@ -1,0 +1,15 @@
+[33m05cf98a[m[33m ([m[1;36mHEAD[m[33m)[m HEAD@{0}: pull --rebase origin main (start): checkout 05cf98ad60505ce190d82b6f5528f103ae295e98
+[33m1f2b2ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: Branch: renamed refs/heads/master to refs/heads/main
+[33m1f2b2ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{3}: commit (initial): Initial commit
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{5}: checkout: moving from pomodoro to master
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{6}: reset: moving to HEAD
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{7}: reset: moving to 03d68db23329357b1c33d7569ca241b199cd0076
+[33m06e6e14[m HEAD@{8}: commit: Best Program of the world
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{9}: reset: moving to 03d68db23329357b1c33d7569ca241b199cd0076
+[33m7a104eb[m HEAD@{10}: commit: Best Program of the world
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{11}: checkout: moving from master to pomodoro
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{12}: reset: moving to 03d68db23329357b1c33d7569ca241b199cd0076
+[33mb5e9a7b[m HEAD@{13}: commit: Best Program of the world
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{14}: reset: moving to 03d68db23329357b1c33d7569ca241b199cd0076
+[33m8d13568[m HEAD@{15}: commit: Best Program of the world
+[33m03d68db[m[33m ([m[1;32mpomodoro[m[33m)[m HEAD@{16}: commit (initial): Initialize project using Create React App
